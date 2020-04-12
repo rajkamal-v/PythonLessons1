@@ -11,8 +11,6 @@ print(name[::])
 print(name[0:10:1])
 print(name[::-1])
 
-
-
 #length/size -- 10 ---> indexing 0 to 9
 
 val = 'o'

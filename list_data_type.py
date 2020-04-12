@@ -1,4 +1,4 @@
-#List is a collection which is ordered and changeable. Allows duplicate members.
+#List is a collection which is ordered and changeable. Allows duplicate members. []
 
 #ordered
 mark_1 = [97, 85, 76, 99, 68]

@@ -1,11 +1,30 @@
-scope
-modules
-exception handling
-
-oops
 
 
 
 
 
-lambda
+Sunday
+------
+Special functions - 60 mins
+Iterators/Generators 90 mins
+Decorators
+Closure
+
+JSON - 15 mins
+
+
+Python Database Connectivity - 15 mins
+
+
+Tuesday:
+-------
+Selenium - Introduction
+Project Setup for Selenium
+Create a sample Selenium Test
+
+
+
+
+
+
+

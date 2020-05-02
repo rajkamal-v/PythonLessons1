@@ -49,7 +49,18 @@ finally:
 
 num2 = input('enter an integer: ')
 
+# if int(num2):
+#     print(num2)
+# else:
+#     raise ZeroDivisionError("number cannot be 0, give some other integer")
+
+class CustomException(Exception):
+    pass
+
 if int(num2):
     print(num2)
 else:
-    raise ZeroDivisionError("number cannot be 0, give some other integer")
+    try:
+        raise CustomException("This is a custom exception")
+    except CustomException:
+        print(sys.exc_info())

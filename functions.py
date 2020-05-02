@@ -2,7 +2,7 @@ def sum1():
     num1, num2, num3 = 3, 6, 8
     print(num1+num2+num3)
 
-sum1()
+
 sum1()
 
 def sum2(num2,num3,num1):

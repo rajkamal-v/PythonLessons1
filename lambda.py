@@ -38,7 +38,32 @@ mytripler = myfunc(3)  # ====>   lambda a: a * 3
 print(mydoubler(10))   # =====> lambda 10: 10 * 2   = 20
 print(mytripler(10))   # =====> lambda 10: 10 * 3   = 30
 
+#The built-in function map() takes a function as a first argument and applies it to each of the elements of its second argument, an iterable.
+result = list(map(lambda x: x[::-1], ['cat', 'dog', 'cow']))
 
+print(result)
+#list comprehension:
+[x.capitalize() for x in ['cat', 'dog', 'cow']]
+
+
+'''
+The built-in function filter(), another classic functional construct, 
+can be converted into a list comprehension. It takes a predicate as a 
+first argument and an iterable as a second argument. 
+It builds an iterator containing all the elements of the initial 
+collection that satisfies the predicate function.
+'''
+print(list(filter(lambda x: 'o' not in x, ['cat', 'dog', 'cow'])))
+
+even = lambda x: x%2 == 0
+print(list(filter(even, range(11))))
+
+#list comprehension:
+[x for x in range(11) if x%2 == 0]
+
+from functools import reduce
+print(reduce(lambda a, x: f'{a} | {x}', ['cat', 'dog', 'cow', 'fox']))
+print(reduce(lambda a , b: str(a)+str(b), [1,10,20]))
 
 
 

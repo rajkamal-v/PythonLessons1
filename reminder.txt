@@ -3,12 +3,12 @@
 
 
 
-Sunday
-------
-Special functions - 60 mins
-Iterators/Generators 90 mins
-Decorators
+Thursday
+--------
+for loop variable
 Closure
+Decorators
+
 
 JSON - 15 mins
 
@@ -16,7 +16,7 @@ JSON - 15 mins
 Python Database Connectivity - 15 mins
 
 
-Tuesday:
+Sunday:
 -------
 Selenium - Introduction
 Project Setup for Selenium

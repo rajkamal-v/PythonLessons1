@@ -1,0 +1,6 @@
+{
+  "data": [
+            {"name":"John", "age":30, "city":"New York"},
+            {"name":"Henry", "age":45, "city":"New Jersey"}
+          ]
+}
